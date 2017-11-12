@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>学号:</strong>
+  <%= @student. Stu_No %>
+</p>
+
+<p>
+  <strong>姓名:</strong>
+  <%= @student.Stu_Name %>
+</p>
+
+<p>
+  <strong>性别:</strong>
+  <%= @student.Stu_gender %>
+</p>
+
+<p>
+  <strong>年龄:</strong>
+  <%= @student.Stu_age %>
+</p>
+
+<%= link_to "编辑", edit_student_path(@student) %> |
+<%= link_to "返回", students_path %>
